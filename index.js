@@ -17,8 +17,12 @@ function johnLennonFacts(array) {
 
 function iLoveTheBeatles(n) {
   var mine = [];
-  while(n < 15) {
-    mine.push("I love the Beatles!");
-    n++;
+  while(n > 0) {
+     if(n < 15) {
+      mine.push("I love the Beatles!");
+      n++;
+     } else {
+       return mine;
+     }
   }
 }
