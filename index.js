@@ -24,7 +24,7 @@ function iLoveTheBeatles(n) {
   } 
   return mine;
   } else if (n > 15) {
-    return "I love the Beatles!");
+    return "I love the Beatles!";
   }
   
 }
