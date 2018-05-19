@@ -21,8 +21,6 @@ function iLoveTheBeatles(n) {
   while (n > 0) {
       mine.push("I love the Beatles!");
       n++;
-  if (n < 15) {
-  }
     if (n >= 15) {
       return mine;
     }
