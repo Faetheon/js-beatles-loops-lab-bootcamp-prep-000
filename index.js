@@ -19,6 +19,7 @@ function iLoveTheBeatles(n) {
   var mine = [];
   while(n > 0) {
     mine.push("I love the Beatles!");
+    n--;
     if(n < 15) {
       return mine;
     }
