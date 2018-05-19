@@ -12,6 +12,7 @@ function johnLennonFacts(array) {
   while(array.length > 0) {
     arr.push(`${array[i]}!!!`);
     i++;
+    arr.pop();
   }
   return arr;
 }
